@@ -1,0 +1,2 @@
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachines/scheduler-MM2GKY3DGQYDKLJYHEZTCLJUGQ(base)
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-3nw4ezweongu7/virtualMachines/3(base)
