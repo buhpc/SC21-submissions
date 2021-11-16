@@ -1,0 +1,6 @@
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-tz3luo2xcnhm3/virtualMachines/8
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-tz3luo2xcnhm3/virtualMachines/2
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-tz3luo2xcnhm3/virtualMachines/4
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-tz3luo2xcnhm3/virtualMachines/5
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachineScaleSets/hpc-tz3luo2xcnhm3/virtualMachines/6
+/subscriptions/a63d953f-bbf4-48ed-be50-865b9e512436/resourceGroups/scc-rg4/providers/Microsoft.Compute/virtualMachines/scheduler-GZSGKOBXGM4TELJQMYZGCLJUHF
