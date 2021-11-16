@@ -1,0 +1,9 @@
+### Part B: CLOUD RESOURCE CONFIG
+
+SKU: Standard_HB120rs_v2
+Num of Nodes: 1
+Compute Cost: $1.45
+
+### Part C: Job Scripts
+
+OMP_NUM_THREADS=1 mpirun -np 120 rw.x -input ausurf.in 2>&1 | tee team4_QE_task1_printout.txt

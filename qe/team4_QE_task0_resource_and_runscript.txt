@@ -1,0 +1,9 @@
+### PART B: CLOUD RESOURCE CONFIG
+
+SKU: Standard_HB120rs_v2
+Num of Nodes: 1
+Compute Cost: $0.69266
+
+### Part C : Job Scripts
+
+ctest -L "system--pw" --output-on-failure

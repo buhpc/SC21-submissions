@@ -1,0 +1,556 @@
+Test project /shared/home/ccuser/qe_install/build
+        Start  28: system--pw-pseudo
+  1/258 Test  #28: system--pw-pseudo .................................................   Passed    0.34 sec
+        Start  30: system--pw_atom--atom-lsda
+  2/258 Test  #30: system--pw_atom--atom-lsda ........................................   Passed    0.97 sec
+        Start  31: system--pw_atom--atom-occ1
+  3/258 Test  #31: system--pw_atom--atom-occ1 ........................................   Passed    6.04 sec
+        Start  32: system--pw_atom--atom-occ2
+  4/258 Test  #32: system--pw_atom--atom-occ2 ........................................   Passed    4.44 sec
+        Start  33: system--pw_atom--atom-pbe
+  5/258 Test  #33: system--pw_atom--atom-pbe .........................................   Passed    0.95 sec
+        Start  34: system--pw_atom--atom-sigmapbe
+  6/258 Test  #34: system--pw_atom--atom-sigmapbe ....................................   Passed    1.94 sec
+        Start  35: system--pw_atom--atom
+  7/258 Test  #35: system--pw_atom--atom .............................................   Passed    0.83 sec
+        Start  29: system--pw_atom-correctness
+  8/258 Test  #29: system--pw_atom-correctness .......................................   Passed    0.57 sec
+        Start  37: system--pw_b3lyp--b3lyp-O
+  9/258 Test  #37: system--pw_b3lyp--b3lyp-O .........................................   Passed    5.01 sec
+        Start  38: system--pw_b3lyp--b3lyp-h2o
+ 10/258 Test  #38: system--pw_b3lyp--b3lyp-h2o .......................................   Passed    6.76 sec
+        Start  39: system--pw_b3lyp--x3lyp-O
+ 11/258 Test  #39: system--pw_b3lyp--x3lyp-O .........................................   Passed    5.25 sec
+        Start  40: system--pw_b3lyp--x3lyp-h2o
+ 12/258 Test  #40: system--pw_b3lyp--x3lyp-h2o .......................................   Passed    6.78 sec
+        Start  36: system--pw_b3lyp-correctness
+ 13/258 Test  #36: system--pw_b3lyp-correctness ......................................   Passed    0.46 sec
+        Start  44: system--pw_berry--berry
+ 14/258 Test  #44: system--pw_berry--berry ...........................................   Passed    1.39 sec
+        Start  42: system--pw_berry--berry-1
+ 15/258 Test  #42: system--pw_berry--berry-1 .........................................   Passed    2.32 sec
+        Start  43: system--pw_berry--berry-2
+ 16/258 Test  #43: system--pw_berry--berry-2 .........................................   Passed    3.14 sec
+        Start  41: system--pw_berry-correctness
+ 17/258 Test  #41: system--pw_berry-correctness ......................................   Passed    0.40 sec
+        Start  46: system--pw_cluster--cluster1
+ 18/258 Test  #46: system--pw_cluster--cluster1 ......................................   Passed    1.57 sec
+        Start  47: system--pw_cluster--cluster2
+ 19/258 Test  #47: system--pw_cluster--cluster2 ......................................   Passed    3.75 sec
+        Start  48: system--pw_cluster--cluster3
+ 20/258 Test  #48: system--pw_cluster--cluster3 ......................................   Passed    4.02 sec
+        Start  49: system--pw_cluster--cluster4
+ 21/258 Test  #49: system--pw_cluster--cluster4 ......................................   Passed    1.43 sec
+        Start  45: system--pw_cluster-correctness
+ 22/258 Test  #45: system--pw_cluster-correctness ....................................   Passed    0.46 sec
+        Start  51: system--pw_dft--dft1
+ 23/258 Test  #51: system--pw_dft--dft1 ..............................................   Passed    0.59 sec
+        Start  52: system--pw_dft--dft10
+ 24/258 Test  #52: system--pw_dft--dft10 .............................................   Passed    0.58 sec
+        Start  53: system--pw_dft--dft11
+ 25/258 Test  #53: system--pw_dft--dft11 .............................................   Passed    0.58 sec
+        Start  54: system--pw_dft--dft2
+ 26/258 Test  #54: system--pw_dft--dft2 ..............................................   Passed    0.59 sec
+        Start  55: system--pw_dft--dft3
+ 27/258 Test  #55: system--pw_dft--dft3 ..............................................   Passed    0.58 sec
+        Start  56: system--pw_dft--dft4
+ 28/258 Test  #56: system--pw_dft--dft4 ..............................................   Passed    0.58 sec
+        Start  57: system--pw_dft--dft5
+ 29/258 Test  #57: system--pw_dft--dft5 ..............................................   Passed    0.58 sec
+        Start  58: system--pw_dft--dft6
+ 30/258 Test  #58: system--pw_dft--dft6 ..............................................   Passed    0.58 sec
+        Start  59: system--pw_dft--dft7
+ 31/258 Test  #59: system--pw_dft--dft7 ..............................................   Passed    0.57 sec
+        Start  60: system--pw_dft--dft8
+ 32/258 Test  #60: system--pw_dft--dft8 ..............................................   Passed    0.57 sec
+        Start  61: system--pw_dft--dft9
+ 33/258 Test  #61: system--pw_dft--dft9 ..............................................   Passed    0.58 sec
+        Start  50: system--pw_dft-correctness
+ 34/258 Test  #50: system--pw_dft-correctness ........................................   Passed    0.85 sec
+        Start  63: system--pw_dipole--2dcutoff
+ 35/258 Test  #63: system--pw_dipole--2dcutoff .......................................   Passed    4.37 sec
+        Start  64: system--pw_dipole--dipole
+ 36/258 Test  #64: system--pw_dipole--dipole .........................................   Passed    2.20 sec
+        Start  62: system--pw_dipole-correctness
+ 37/258 Test  #62: system--pw_dipole-correctness .....................................   Passed    0.33 sec
+        Start  68: system--pw_electric--electric
+ 38/258 Test  #68: system--pw_electric--electric .....................................   Passed   11.10 sec
+        Start  66: system--pw_electric--electric-1
+ 39/258 Test  #66: system--pw_electric--electric-1 ...................................   Passed    2.81 sec
+        Start  67: system--pw_electric--electric-2
+ 40/258 Test  #67: system--pw_electric--electric-2 ...................................   Passed   13.40 sec
+        Start  65: system--pw_electric-correctness
+ 41/258 Test  #65: system--pw_electric-correctness ...................................   Passed    0.40 sec
+        Start  71: system--pw_eval--eval_infix
+ 42/258 Test  #71: system--pw_eval--eval_infix .......................................   Passed    0.59 sec
+        Start  70: system--pw_eval--eval_infix-2
+ 43/258 Test  #70: system--pw_eval--eval_infix-2 .....................................   Passed    1.12 sec
+        Start  69: system--pw_eval-correctness
+ 44/258 Test  #69: system--pw_eval-correctness .......................................   Passed    0.33 sec
+        Start  73: system--pw_gau-pbe--gau-pbe-si111
+ 45/258 Test  #73: system--pw_gau-pbe--gau-pbe-si111 .................................   Passed    0.87 sec
+        Start  74: system--pw_gau-pbe--gau-pbe-si222
+ 46/258 Test  #74: system--pw_gau-pbe--gau-pbe-si222 .................................   Passed    1.81 sec
+        Start  75: system--pw_gau-pbe--gau-pbe-si444
+ 47/258 Test  #75: system--pw_gau-pbe--gau-pbe-si444 .................................   Passed    8.87 sec
+        Start  72: system--pw_gau-pbe-correctness
+ 48/258 Test  #72: system--pw_gau-pbe-correctness ....................................   Passed    0.40 sec
+        Start  77: system--pw_hse--hse-si111
+ 49/258 Test  #77: system--pw_hse--hse-si111 .........................................   Passed    0.89 sec
+        Start  78: system--pw_hse--hse-si222
+ 50/258 Test  #78: system--pw_hse--hse-si222 .........................................   Passed    1.84 sec
+        Start  79: system--pw_hse--hse-si444
+ 51/258 Test  #79: system--pw_hse--hse-si444 .........................................   Passed    8.95 sec
+        Start  76: system--pw_hse-correctness
+ 52/258 Test  #76: system--pw_hse-correctness ........................................   Passed    0.40 sec
+        Start  81: system--pw_lattice-ibrav--lattice-ibrav-12-kauto
+ 53/258 Test  #81: system--pw_lattice-ibrav--lattice-ibrav-12-kauto ..................   Passed    0.93 sec
+        Start  82: system--pw_lattice-ibrav--lattice-ibrav-12
+ 54/258 Test  #82: system--pw_lattice-ibrav--lattice-ibrav-12 ........................   Passed    0.73 sec
+        Start  83: system--pw_lattice-ibrav--lattice-ibrav-3-kauto
+ 55/258 Test  #83: system--pw_lattice-ibrav--lattice-ibrav-3-kauto ...................   Passed    0.65 sec
+        Start  84: system--pw_lattice-ibrav--lattice-ibrav-3
+ 56/258 Test  #84: system--pw_lattice-ibrav--lattice-ibrav-3 .........................   Passed    0.61 sec
+        Start  85: system--pw_lattice-ibrav--lattice-ibrav-5-kauto
+ 57/258 Test  #85: system--pw_lattice-ibrav--lattice-ibrav-5-kauto ...................   Passed    0.67 sec
+        Start  86: system--pw_lattice-ibrav--lattice-ibrav-5
+ 58/258 Test  #86: system--pw_lattice-ibrav--lattice-ibrav-5 .........................   Passed    0.61 sec
+        Start  87: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters+a
+ 59/258 Test  #87: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters+a ........   Passed    0.71 sec
+        Start  88: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters+celldm
+ 60/258 Test  #88: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters+celldm ...   Passed    0.94 sec
+        Start  89: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters-ang
+ 61/258 Test  #89: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters-ang ......   Passed    0.74 sec
+        Start  90: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters
+ 62/258 Test  #90: system--pw_lattice-ibrav--lattice-ibrav0-cell_parameters ..........   Passed    0.94 sec
+        Start  91: system--pw_lattice-ibrav--lattice-ibrav1-kauto
+ 63/258 Test  #91: system--pw_lattice-ibrav--lattice-ibrav1-kauto ....................   Passed    0.75 sec
+        Start  92: system--pw_lattice-ibrav--lattice-ibrav1
+ 64/258 Test  #92: system--pw_lattice-ibrav--lattice-ibrav1 ..........................   Passed    0.62 sec
+        Start  93: system--pw_lattice-ibrav--lattice-ibrav10-kauto
+ 65/258 Test  #93: system--pw_lattice-ibrav--lattice-ibrav10-kauto ...................   Passed    0.77 sec
+        Start  94: system--pw_lattice-ibrav--lattice-ibrav10
+ 66/258 Test  #94: system--pw_lattice-ibrav--lattice-ibrav10 .........................   Passed    0.67 sec
+        Start  95: system--pw_lattice-ibrav--lattice-ibrav11-kauto
+ 67/258 Test  #95: system--pw_lattice-ibrav--lattice-ibrav11-kauto ...................   Passed    0.92 sec
+        Start  96: system--pw_lattice-ibrav--lattice-ibrav11
+ 68/258 Test  #96: system--pw_lattice-ibrav--lattice-ibrav11 .........................   Passed    0.78 sec
+        Start  97: system--pw_lattice-ibrav--lattice-ibrav12-kauto
+ 69/258 Test  #97: system--pw_lattice-ibrav--lattice-ibrav12-kauto ...................   Passed    0.90 sec
+        Start  98: system--pw_lattice-ibrav--lattice-ibrav12
+ 70/258 Test  #98: system--pw_lattice-ibrav--lattice-ibrav12 .........................   Passed    0.73 sec
+        Start  99: system--pw_lattice-ibrav--lattice-ibrav13-kauto
+ 71/258 Test  #99: system--pw_lattice-ibrav--lattice-ibrav13-kauto ...................   Passed    0.83 sec
+        Start 100: system--pw_lattice-ibrav--lattice-ibrav13
+ 72/258 Test #100: system--pw_lattice-ibrav--lattice-ibrav13 .........................   Passed    0.78 sec
+        Start 101: system--pw_lattice-ibrav--lattice-ibrav14-kauto
+ 73/258 Test #101: system--pw_lattice-ibrav--lattice-ibrav14-kauto ...................   Passed    1.05 sec
+        Start 102: system--pw_lattice-ibrav--lattice-ibrav14
+ 74/258 Test #102: system--pw_lattice-ibrav--lattice-ibrav14 .........................   Passed    0.71 sec
+        Start 103: system--pw_lattice-ibrav--lattice-ibrav2-kauto
+ 75/258 Test #103: system--pw_lattice-ibrav--lattice-ibrav2-kauto ....................   Passed    0.85 sec
+        Start 104: system--pw_lattice-ibrav--lattice-ibrav2
+ 76/258 Test #104: system--pw_lattice-ibrav--lattice-ibrav2 ..........................   Passed    0.63 sec
+        Start 105: system--pw_lattice-ibrav--lattice-ibrav3-kauto
+ 77/258 Test #105: system--pw_lattice-ibrav--lattice-ibrav3-kauto ....................   Passed    0.65 sec
+        Start 106: system--pw_lattice-ibrav--lattice-ibrav3
+ 78/258 Test #106: system--pw_lattice-ibrav--lattice-ibrav3 ..........................   Passed    0.74 sec
+        Start 107: system--pw_lattice-ibrav--lattice-ibrav4-kauto
+ 79/258 Test #107: system--pw_lattice-ibrav--lattice-ibrav4-kauto ....................   Passed    0.83 sec
+        Start 108: system--pw_lattice-ibrav--lattice-ibrav4
+ 80/258 Test #108: system--pw_lattice-ibrav--lattice-ibrav4 ..........................   Passed    0.68 sec
+        Start 109: system--pw_lattice-ibrav--lattice-ibrav5-kauto
+ 81/258 Test #109: system--pw_lattice-ibrav--lattice-ibrav5-kauto ....................   Passed    0.66 sec
+        Start 110: system--pw_lattice-ibrav--lattice-ibrav5
+ 82/258 Test #110: system--pw_lattice-ibrav--lattice-ibrav5 ..........................   Passed    0.62 sec
+        Start 111: system--pw_lattice-ibrav--lattice-ibrav6-kauto
+ 83/258 Test #111: system--pw_lattice-ibrav--lattice-ibrav6-kauto ....................   Passed    0.93 sec
+        Start 112: system--pw_lattice-ibrav--lattice-ibrav6
+ 84/258 Test #112: system--pw_lattice-ibrav--lattice-ibrav6 ..........................   Passed    0.66 sec
+        Start 113: system--pw_lattice-ibrav--lattice-ibrav7-kauto
+ 85/258 Test #113: system--pw_lattice-ibrav--lattice-ibrav7-kauto ....................   Passed    0.77 sec
+        Start 114: system--pw_lattice-ibrav--lattice-ibrav7
+ 86/258 Test #114: system--pw_lattice-ibrav--lattice-ibrav7 ..........................   Passed    0.77 sec
+        Start 115: system--pw_lattice-ibrav--lattice-ibrav8-kauto
+ 87/258 Test #115: system--pw_lattice-ibrav--lattice-ibrav8-kauto ....................   Passed    1.02 sec
+        Start 116: system--pw_lattice-ibrav--lattice-ibrav8
+ 88/258 Test #116: system--pw_lattice-ibrav--lattice-ibrav8 ..........................   Passed    0.71 sec
+        Start 117: system--pw_lattice-ibrav--lattice-ibrav9-kauto
+ 89/258 Test #117: system--pw_lattice-ibrav--lattice-ibrav9-kauto ....................   Passed    0.96 sec
+        Start 118: system--pw_lattice-ibrav--lattice-ibrav9
+ 90/258 Test #118: system--pw_lattice-ibrav--lattice-ibrav9 ..........................   Passed    0.68 sec
+        Start 119: system--pw_lattice-ibrav--lattice-wyckoff-sio2
+ 91/258 Test #119: system--pw_lattice-ibrav--lattice-wyckoff-sio2 ....................   Passed    2.60 sec
+        Start  80: system--pw_lattice-ibrav-correctness
+ 92/258 Test  #80: system--pw_lattice-ibrav-correctness ..............................   Passed    2.48 sec
+        Start 121: system--pw_lda+U--lda+U+V-user_ns
+ 93/258 Test #121: system--pw_lda+U--lda+U+V-user_ns .................................   Passed    4.85 sec
+        Start 122: system--pw_lda+U--lda+U+V_background
+ 94/258 Test #122: system--pw_lda+U--lda+U+V_background ..............................   Passed    2.96 sec
+        Start 123: system--pw_lda+U--lda+U+V_force_stress_ortho
+ 95/258 Test #123: system--pw_lda+U--lda+U+V_force_stress_ortho ......................   Passed    7.41 sec
+        Start 124: system--pw_lda+U--lda+U-noU
+ 96/258 Test #124: system--pw_lda+U--lda+U-noU .......................................   Passed    3.33 sec
+        Start 125: system--pw_lda+U--lda+U-user_ns
+ 97/258 Test #125: system--pw_lda+U--lda+U-user_ns ...................................   Passed    3.55 sec
+        Start 126: system--pw_lda+U--lda+U
+ 98/258 Test #126: system--pw_lda+U--lda+U ...........................................   Passed    4.48 sec
+        Start 127: system--pw_lda+U--lda+U_background_one_channel
+ 99/258 Test #127: system--pw_lda+U--lda+U_background_one_channel ....................   Passed    9.21 sec
+        Start 128: system--pw_lda+U--lda+U_background_two_channels
+100/258 Test #128: system--pw_lda+U--lda+U_background_two_channels ...................   Passed   21.40 sec
+        Start 129: system--pw_lda+U--lda+U_force
+101/258 Test #129: system--pw_lda+U--lda+U_force .....................................   Passed    5.43 sec
+        Start 130: system--pw_lda+U--lda+U_force_stress_ortho
+102/258 Test #130: system--pw_lda+U--lda+U_force_stress_ortho ........................   Passed    5.41 sec
+        Start 131: system--pw_lda+U--lda+U_gamma
+103/258 Test #131: system--pw_lda+U--lda+U_gamma .....................................   Passed    2.59 sec
+        Start 132: system--pw_lda+U--lda+U_kind1_collin
+104/258 Test #132: system--pw_lda+U--lda+U_kind1_collin ..............................   Passed    6.47 sec
+        Start 133: system--pw_lda+U--lda+U_kind1_noncollin
+105/258 Test #133: system--pw_lda+U--lda+U_kind1_noncollin ...........................   Passed    8.52 sec
+        Start 134: system--pw_lda+U--lda+U_pseudo
+106/258 Test #134: system--pw_lda+U--lda+U_pseudo ....................................   Passed    2.67 sec
+        Start 120: system--pw_lda+U-correctness
+107/258 Test #120: system--pw_lda+U-correctness ......................................   Passed    1.06 sec
+        Start 143: system--pw_lsda--lsda
+108/258 Test #143: system--pw_lsda--lsda .............................................   Passed    1.22 sec
+        Start 136: system--pw_lsda--lsda-2
+109/258 Test #136: system--pw_lsda--lsda-2 ...........................................   Passed    1.45 sec
+        Start 137: system--pw_lsda--lsda-cg
+110/258 Test #137: system--pw_lsda--lsda-cg ..........................................   Passed    1.41 sec
+        Start 138: system--pw_lsda--lsda-mixing_TF
+111/258 Test #138: system--pw_lsda--lsda-mixing_TF ...................................   Passed    1.02 sec
+        Start 139: system--pw_lsda--lsda-mixing_localTF
+112/258 Test #139: system--pw_lsda--lsda-mixing_localTF ..............................   Passed    1.01 sec
+        Start 140: system--pw_lsda--lsda-mixing_ndim
+113/258 Test #140: system--pw_lsda--lsda-mixing_ndim .................................   Passed    1.04 sec
+        Start 141: system--pw_lsda--lsda-nelup+neldw
+114/258 Test #141: system--pw_lsda--lsda-nelup+neldw .................................   Passed    1.01 sec
+        Start 142: system--pw_lsda--lsda-tot_magnetization
+115/258 Test #142: system--pw_lsda--lsda-tot_magnetization ...........................   Passed    1.01 sec
+        Start 135: system--pw_lsda-correctness
+116/258 Test #135: system--pw_lsda-correctness .......................................   Passed    0.69 sec
+        Start 145: system--pw_md--md-pot_extrap1
+117/258 Test #145: system--pw_md--md-pot_extrap1 .....................................   Passed    1.09 sec
+        Start 146: system--pw_md--md-pot_extrap2
+118/258 Test #146: system--pw_md--md-pot_extrap2 .....................................   Passed    1.10 sec
+        Start 147: system--pw_md--md-wfc_extrap1
+119/258 Test #147: system--pw_md--md-wfc_extrap1 .....................................   Passed    1.12 sec
+        Start 148: system--pw_md--md-wfc_extrap2
+120/258 Test #148: system--pw_md--md-wfc_extrap2 .....................................   Passed    1.10 sec
+        Start 149: system--pw_md--md
+121/258 Test #149: system--pw_md--md .................................................   Passed    1.10 sec
+        Start 144: system--pw_md-correctness
+122/258 Test #144: system--pw_md-correctness .........................................   Passed    0.54 sec
+        Start 154: system--pw_metaGGA--metaGGA
+123/258 Test #154: system--pw_metaGGA--metaGGA .......................................   Passed    1.19 sec
+        Start 151: system--pw_metaGGA--metaGGA-1
+124/258 Test #151: system--pw_metaGGA--metaGGA-1 .....................................   Passed    1.43 sec
+        Start 152: system--pw_metaGGA--metaGGA-2
+125/258 Test #152: system--pw_metaGGA--metaGGA-2 .....................................   Passed    1.32 sec
+        Start 153: system--pw_metaGGA--metaGGA-spin
+126/258 Test #153: system--pw_metaGGA--metaGGA-spin ..................................   Passed   17.23 sec
+        Start 150: system--pw_metaGGA-correctness
+127/258 Test #150: system--pw_metaGGA-correctness ....................................   Passed    0.45 sec
+        Start 162: system--pw_metal--metal
+128/258 Test #162: system--pw_metal--metal ...........................................   Passed    0.62 sec
+        Start 156: system--pw_metal--metal-2
+129/258 Test #156: system--pw_metal--metal-2 .........................................   Passed    0.73 sec
+        Start 157: system--pw_metal--metal-fermi_dirac
+130/258 Test #157: system--pw_metal--metal-fermi_dirac ...............................   Passed    0.61 sec
+        Start 158: system--pw_metal--metal-gaussian
+131/258 Test #158: system--pw_metal--metal-gaussian ..................................   Passed    0.61 sec
+        Start 161: system--pw_metal--metal-tetrahedra
+132/258 Test #161: system--pw_metal--metal-tetrahedra ................................   Passed    0.63 sec
+        Start 159: system--pw_metal--metal-tetrahedra-1
+133/258 Test #159: system--pw_metal--metal-tetrahedra-1 ..............................   Passed    0.92 sec
+        Start 160: system--pw_metal--metal-tetrahedra-2
+134/258 Test #160: system--pw_metal--metal-tetrahedra-2 ..............................   Passed    0.75 sec
+        Start 155: system--pw_metal-correctness
+135/258 Test #155: system--pw_metal-correctness ......................................   Passed    0.62 sec
+        Start 173: system--pw_noncolin--noncolin
+136/258 Test #173: system--pw_noncolin--noncolin .....................................   Passed    2.21 sec
+        Start 164: system--pw_noncolin--noncolin-1
+137/258 Test #164: system--pw_noncolin--noncolin-1 ...................................   Passed    1.89 sec
+        Start 165: system--pw_noncolin--noncolin-2
+138/258 Test #165: system--pw_noncolin--noncolin-2 ...................................   Passed    1.85 sec
+        Start 166: system--pw_noncolin--noncolin-cg
+139/258 Test #166: system--pw_noncolin--noncolin-cg ..................................   Passed    2.48 sec
+        Start 167: system--pw_noncolin--noncolin-constrain_angle
+140/258 Test #167: system--pw_noncolin--noncolin-constrain_angle .....................   Passed    1.78 sec
+        Start 168: system--pw_noncolin--noncolin-constrain_atomic
+141/258 Test #168: system--pw_noncolin--noncolin-constrain_atomic ....................   Passed    4.13 sec
+        Start 169: system--pw_noncolin--noncolin-constrain_total
+142/258 Test #169: system--pw_noncolin--noncolin-constrain_total .....................   Passed    4.75 sec
+        Start 170: system--pw_noncolin--noncolin-hyb
+143/258 Test #170: system--pw_noncolin--noncolin-hyb .................................   Passed    1.17 sec
+        Start 171: system--pw_noncolin--noncolin-pbe
+144/258 Test #171: system--pw_noncolin--noncolin-pbe .................................   Passed    1.92 sec
+        Start 172: system--pw_noncolin--noncolin-rmm
+145/258 Test #172: system--pw_noncolin--noncolin-rmm .................................   Passed    1.83 sec
+        Start 163: system--pw_noncolin-correctness
+146/258 Test #163: system--pw_noncolin-correctness ...................................   Passed    0.82 sec
+        Start 175: system--pw_pawatom--paw-atom
+147/258 Test #175: system--pw_pawatom--paw-atom ......................................   Passed    1.16 sec
+        Start 176: system--pw_pawatom--paw-atom_l=2
+148/258 Test #176: system--pw_pawatom--paw-atom_l=2 ..................................   Passed    1.94 sec
+        Start 177: system--pw_pawatom--paw-atom_lda
+149/258 Test #177: system--pw_pawatom--paw-atom_lda ..................................   Passed    1.09 sec
+        Start 178: system--pw_pawatom--paw-atom_spin
+150/258 Test #178: system--pw_pawatom--paw-atom_spin .................................   Passed    2.62 sec
+        Start 179: system--pw_pawatom--paw-atom_spin_lda
+151/258 Test #179: system--pw_pawatom--paw-atom_spin_lda .............................   Passed    2.04 sec
+        Start 180: system--pw_pawatom--paw-atom_tqr
+152/258 Test #180: system--pw_pawatom--paw-atom_tqr ..................................   Passed    1.71 sec
+        Start 181: system--pw_pawatom--paw-bfgs
+153/258 Test #181: system--pw_pawatom--paw-bfgs ......................................   Passed    2.98 sec
+        Start 182: system--pw_pawatom--paw-vcbfgs
+154/258 Test #182: system--pw_pawatom--paw-vcbfgs ....................................   Passed    2.85 sec
+        Start 174: system--pw_pawatom-correctness
+155/258 Test #174: system--pw_pawatom-correctness ....................................   Passed    0.68 sec
+        Start 184: system--pw_pbe--pbe0-si111
+156/258 Test #184: system--pw_pbe--pbe0-si111 ........................................   Passed    0.91 sec
+        Start 185: system--pw_pbe--pbe0-si222
+157/258 Test #185: system--pw_pbe--pbe0-si222 ........................................   Passed    1.80 sec
+        Start 186: system--pw_pbe--pbe0-si444
+158/258 Test #186: system--pw_pbe--pbe0-si444 ........................................   Passed    8.81 sec
+        Start 187: system--pw_pbe--pbeq2d
+159/258 Test #187: system--pw_pbe--pbeq2d ............................................   Passed    6.74 sec
+        Start 183: system--pw_pbe-correctness
+160/258 Test #183: system--pw_pbe-correctness ........................................   Passed    0.46 sec
+        Start 189: system--pw_plugins--plugin-pw2casino_1
+161/258 Test #189: system--pw_plugins--plugin-pw2casino_1 ............................   Passed    0.79 sec
+        Start 190: system--pw_plugins--plugin-pw2casino_2
+162/258 Test #190: system--pw_plugins--plugin-pw2casino_2 ............................   Passed    0.67 sec
+        Start 188: system--pw_plugins-correctness
+163/258 Test #188: system--pw_plugins-correctness ....................................   Passed    0.33 sec
+        Start 192: system--pw_realspace--cluster_gs
+164/258 Test #192: system--pw_realspace--cluster_gs ..................................   Passed    4.01 sec
+        Start 193: system--pw_realspace--cluster_gs50
+165/258 Test #193: system--pw_realspace--cluster_gs50 ................................   Passed    2.42 sec
+        Start 194: system--pw_realspace--cluster_rs
+166/258 Test #194: system--pw_realspace--cluster_rs ..................................   Passed    4.38 sec
+        Start 195: system--pw_realspace--cluster_rs50
+167/258 Test #195: system--pw_realspace--cluster_rs50 ................................   Passed    2.58 sec
+        Start 191: system--pw_realspace-correctness
+168/258 Test #191: system--pw_realspace-correctness ..................................   Passed    0.46 sec
+        Start 197: system--pw_relax--relax-damped
+169/258 Test #197: system--pw_relax--relax-damped ....................................   Passed    3.27 sec
+        Start 198: system--pw_relax--relax-el
+170/258 Test #198: system--pw_relax--relax-el ........................................   Passed    4.31 sec
+        Start 199: system--pw_relax--relax-extfor
+171/258 Test #199: system--pw_relax--relax-extfor ....................................   Passed    2.57 sec
+        Start 200: system--pw_relax--relax
+172/258 Test #200: system--pw_relax--relax ...........................................   Passed    2.36 sec
+        Start 201: system--pw_relax--relax2-bfgs_ndim3
+173/258 Test #201: system--pw_relax--relax2-bfgs_ndim3 ...............................   Passed    2.11 sec
+        Start 202: system--pw_relax--relax2
+174/258 Test #202: system--pw_relax--relax2 ..........................................   Passed    3.11 sec
+        Start 196: system--pw_relax-correctness
+175/258 Test #196: system--pw_relax-correctness ......................................   Passed    0.59 sec
+        Start 230: system--pw_scf--scf
+176/258 Test #230: system--pw_scf--scf ...............................................   Passed    0.59 sec
+        Start 204: system--pw_scf--scf-1
+177/258 Test #204: system--pw_scf--scf-1 .............................................   Passed    0.95 sec
+        Start 205: system--pw_scf--scf-2
+178/258 Test #205: system--pw_scf--scf-2 .............................................   Passed    0.71 sec
+        Start 206: system--pw_scf--scf-allfrac
+179/258 Test #206: system--pw_scf--scf-allfrac .......................................   Passed    0.64 sec
+        Start 207: system--pw_scf--scf-cg
+180/258 Test #207: system--pw_scf--scf-cg ............................................   Passed    0.60 sec
+        Start 210: system--pw_scf--scf-disk_io
+181/258 Test #210: system--pw_scf--scf-disk_io .......................................   Passed    0.80 sec
+        Start 208: system--pw_scf--scf-disk_io-1
+182/258 Test #208: system--pw_scf--scf-disk_io-1 .....................................   Passed    0.74 sec
+        Start 209: system--pw_scf--scf-disk_io-2
+183/258 Test #209: system--pw_scf--scf-disk_io-2 .....................................   Passed    0.71 sec
+        Start 211: system--pw_scf--scf-gamma
+184/258 Test #211: system--pw_scf--scf-gamma .........................................   Passed    0.58 sec
+        Start 212: system--pw_scf--scf-k0
+185/258 Test #212: system--pw_scf--scf-k0 ............................................   Passed    0.69 sec
+        Start 213: system--pw_scf--scf-kauto
+186/258 Test #213: system--pw_scf--scf-kauto .........................................   Passed    0.58 sec
+        Start 214: system--pw_scf--scf-kcrys
+187/258 Test #214: system--pw_scf--scf-kcrys .........................................   Passed    0.59 sec
+        Start 215: system--pw_scf--scf-mixing_TF
+188/258 Test #215: system--pw_scf--scf-mixing_TF .....................................   Passed    0.78 sec
+        Start 216: system--pw_scf--scf-mixing_beta
+189/258 Test #216: system--pw_scf--scf-mixing_beta ...................................   Passed    0.59 sec
+        Start 217: system--pw_scf--scf-mixing_localTF
+190/258 Test #217: system--pw_scf--scf-mixing_localTF ................................   Passed    0.59 sec
+        Start 218: system--pw_scf--scf-mixing_ndim
+191/258 Test #218: system--pw_scf--scf-mixing_ndim ...................................   Passed    0.58 sec
+        Start 219: system--pw_scf--scf-ncpp
+192/258 Test #219: system--pw_scf--scf-ncpp ..........................................   Passed    0.58 sec
+        Start 220: system--pw_scf--scf-nofrac
+193/258 Test #220: system--pw_scf--scf-nofrac ........................................   Passed    0.58 sec
+        Start 221: system--pw_scf--scf-occ
+194/258 Test #221: system--pw_scf--scf-occ ...........................................   Passed    0.59 sec
+        Start 222: system--pw_scf--scf-paro-gamma
+195/258 Test #222: system--pw_scf--scf-paro-gamma ....................................   Passed    1.18 sec
+        Start 223: system--pw_scf--scf-paro-k
+196/258 Test #223: system--pw_scf--scf-paro-k ........................................   Passed    0.97 sec
+        Start 224: system--pw_scf--scf-ppcg-gamma
+197/258 Test #224: system--pw_scf--scf-ppcg-gamma ....................................   Passed    1.21 sec
+        Start 225: system--pw_scf--scf-ppcg-k
+198/258 Test #225: system--pw_scf--scf-ppcg-k ........................................   Passed    1.08 sec
+        Start 226: system--pw_scf--scf-rmm-gamma
+199/258 Test #226: system--pw_scf--scf-rmm-gamma .....................................   Passed    1.18 sec
+        Start 227: system--pw_scf--scf-rmm-k
+200/258 Test #227: system--pw_scf--scf-rmm-k .........................................   Passed    1.08 sec
+        Start 228: system--pw_scf--scf-rmm-paro-gamma
+201/258 Test #228: system--pw_scf--scf-rmm-paro-gamma ................................   Passed    1.15 sec
+        Start 229: system--pw_scf--scf-rmm-paro-k
+202/258 Test #229: system--pw_scf--scf-rmm-paro-k ....................................   Passed    0.91 sec
+        Start 203: system--pw_scf-correctness
+203/258 Test #203: system--pw_scf-correctness ........................................   Passed    1.77 sec
+        Start 236: system--pw_spinorbit--spinorbit
+204/258 Test #236: system--pw_spinorbit--spinorbit ...................................   Passed    1.65 sec
+        Start 232: system--pw_spinorbit--spinorbit-1
+205/258 Test #232: system--pw_spinorbit--spinorbit-1 .................................   Passed    1.24 sec
+        Start 233: system--pw_spinorbit--spinorbit-3
+206/258 Test #233: system--pw_spinorbit--spinorbit-3 .................................   Passed    1.22 sec
+        Start 234: system--pw_spinorbit--spinorbit-paw
+207/258 Test #234: system--pw_spinorbit--spinorbit-paw ...............................   Passed    3.61 sec
+        Start 235: system--pw_spinorbit--spinorbit-pbe
+208/258 Test #235: system--pw_spinorbit--spinorbit-pbe ...............................   Passed    1.78 sec
+        Start 231: system--pw_spinorbit-correctness
+209/258 Test #231: system--pw_spinorbit-correctness ..................................   Passed    0.50 sec
+        Start 250: system--pw_uspp--uspp
+210/258 Test #250: system--pw_uspp--uspp .............................................   Passed    0.83 sec
+        Start 238: system--pw_uspp--uspp-2
+211/258 Test #238: system--pw_uspp--uspp-2 ...........................................   Passed    0.93 sec
+        Start 239: system--pw_uspp--uspp-cg
+212/258 Test #239: system--pw_uspp--uspp-cg ..........................................   Passed    0.83 sec
+        Start 240: system--pw_uspp--uspp-hyb-g
+213/258 Test #240: system--pw_uspp--uspp-hyb-g .......................................   Passed    1.47 sec
+        Start 241: system--pw_uspp--uspp-hyb-k
+214/258 Test #241: system--pw_uspp--uspp-hyb-k .......................................   Passed    2.58 sec
+        Start 242: system--pw_uspp--uspp-mixing_TF
+215/258 Test #242: system--pw_uspp--uspp-mixing_TF ...................................   Passed    0.81 sec
+        Start 243: system--pw_uspp--uspp-mixing_localTF
+216/258 Test #243: system--pw_uspp--uspp-mixing_localTF ..............................   Passed    0.79 sec
+        Start 244: system--pw_uspp--uspp-mixing_ndim
+217/258 Test #244: system--pw_uspp--uspp-mixing_ndim .................................   Passed    0.79 sec
+        Start 245: system--pw_uspp--uspp-paro-gamma
+218/258 Test #245: system--pw_uspp--uspp-paro-gamma ..................................   Passed    0.88 sec
+        Start 246: system--pw_uspp--uspp-paro-k
+219/258 Test #246: system--pw_uspp--uspp-paro-k ......................................   Passed    0.79 sec
+        Start 247: system--pw_uspp--uspp-ppcg-gamma
+220/258 Test #247: system--pw_uspp--uspp-ppcg-gamma ..................................   Passed    0.85 sec
+        Start 248: system--pw_uspp--uspp-ppcg-k
+221/258 Test #248: system--pw_uspp--uspp-ppcg-k ......................................   Passed    0.80 sec
+        Start 249: system--pw_uspp--uspp-singlegrid
+222/258 Test #249: system--pw_uspp--uspp-singlegrid ..................................   Passed    0.73 sec
+        Start 251: system--pw_uspp--uspp1-coulomb
+223/258 Test #251: system--pw_uspp--uspp1-coulomb ....................................   Passed    1.91 sec
+        Start 252: system--pw_uspp--uspp1
+224/258 Test #252: system--pw_uspp--uspp1 ............................................   Passed    1.91 sec
+        Start 253: system--pw_uspp--uspp2
+225/258 Test #253: system--pw_uspp--uspp2 ............................................   Passed    0.97 sec
+        Start 237: system--pw_uspp-correctness
+226/258 Test #237: system--pw_uspp-correctness .......................................   Passed    1.15 sec
+        Start 255: system--pw_vc-relax--vc-md1
+227/258 Test #255: system--pw_vc-relax--vc-md1 .......................................   Passed    8.97 sec
+        Start 256: system--pw_vc-relax--vc-md2
+228/258 Test #256: system--pw_vc-relax--vc-md2 .......................................   Passed    8.37 sec
+        Start 257: system--pw_vc-relax--vc-relax1
+229/258 Test #257: system--pw_vc-relax--vc-relax1 ....................................   Passed   12.94 sec
+        Start 258: system--pw_vc-relax--vc-relax2
+230/258 Test #258: system--pw_vc-relax--vc-relax2 ....................................   Passed    5.57 sec
+        Start 259: system--pw_vc-relax--vc-relax3
+231/258 Test #259: system--pw_vc-relax--vc-relax3 ....................................   Passed    9.76 sec
+        Start 260: system--pw_vc-relax--vc-relax4
+232/258 Test #260: system--pw_vc-relax--vc-relax4 ....................................   Passed    3.51 sec
+        Start 261: system--pw_vc-relax--vc-relax5
+233/258 Test #261: system--pw_vc-relax--vc-relax5 ....................................   Passed    6.15 sec
+        Start 262: system--pw_vc-relax--vc-relax6
+234/258 Test #262: system--pw_vc-relax--vc-relax6 ....................................   Passed    3.84 sec
+        Start 254: system--pw_vc-relax-correctness
+235/258 Test #254: system--pw_vc-relax-correctness ...................................   Passed    0.73 sec
+        Start 264: system--pw_vdw--beef-spin
+236/258 Test #264: system--pw_vdw--beef-spin .........................................   Passed   42.64 sec
+        Start 265: system--pw_vdw--beef
+237/258 Test #265: system--pw_vdw--beef ..............................................   Passed   26.10 sec
+        Start 266: system--pw_vdw--rVV10
+238/258 Test #266: system--pw_vdw--rVV10 .............................................   Passed    9.39 sec
+        Start 267: system--pw_vdw--vdW-DF3-opt1
+239/258 Test #267: system--pw_vdw--vdW-DF3-opt1 ......................................   Passed   34.50 sec
+        Start 268: system--pw_vdw--vdW-DF3-opt2
+240/258 Test #268: system--pw_vdw--vdW-DF3-opt2 ......................................   Passed   26.15 sec
+        Start 269: system--pw_vdw--vdw-d2
+241/258 Test #269: system--pw_vdw--vdw-d2 ............................................   Passed    1.35 sec
+        Start 270: system--pw_vdw--vdw-d3
+242/258 Test #270: system--pw_vdw--vdw-d3 ............................................   Passed    5.74 sec
+        Start 271: system--pw_vdw--vdw-mbd
+243/258 Test #271: system--pw_vdw--vdw-mbd ...........................................   Passed   12.46 sec
+        Start 272: system--pw_vdw--vdw-ts
+244/258 Test #272: system--pw_vdw--vdw-ts ............................................   Passed    1.09 sec
+        Start 273: system--pw_vdw--xdm
+245/258 Test #273: system--pw_vdw--xdm ...............................................   Passed    1.61 sec
+        Start 263: system--pw_vdw-correctness
+246/258 Test #263: system--pw_vdw-correctness ........................................   Passed    0.82 sec
+        Start 275: system--pw_workflow_relax_relax--relax-1
+247/258 Test #275: system--pw_workflow_relax_relax--relax-1 ..........................   Passed   13.76 sec
+        Start 276: system--pw_workflow_relax_relax--relax-2
+248/258 Test #276: system--pw_workflow_relax_relax--relax-2 ..........................   Passed    1.42 sec
+        Start 274: system--pw_workflow_relax_relax-correctness
+249/258 Test #274: system--pw_workflow_relax_relax-correctness .......................   Passed    0.34 sec
+        Start 278: system--pw_workflow_scf_dos--scf-dos-1
+250/258 Test #278: system--pw_workflow_scf_dos--scf-dos-1 ............................   Passed    0.66 sec
+        Start 279: system--pw_workflow_scf_dos--scf-dos-2
+251/258 Test #279: system--pw_workflow_scf_dos--scf-dos-2 ............................   Passed    1.54 sec
+        Start 277: system--pw_workflow_scf_dos-correctness
+252/258 Test #277: system--pw_workflow_scf_dos-correctness ...........................   Passed    0.32 sec
+        Start 281: system--pw_workflow_vc-relax_dos--vc-relax-dos-1
+253/258 Test #281: system--pw_workflow_vc-relax_dos--vc-relax-dos-1 ..................   Passed    3.03 sec
+        Start 282: system--pw_workflow_vc-relax_dos--vc-relax-dos-2
+254/258 Test #282: system--pw_workflow_vc-relax_dos--vc-relax-dos-2 ..................   Passed    2.18 sec
+        Start 280: system--pw_workflow_vc-relax_dos-correctness
+255/258 Test #280: system--pw_workflow_vc-relax_dos-correctness ......................   Passed    0.34 sec
+        Start 284: system--pw_workflow_vc-relax_scf--vc-relax-scf-1
+256/258 Test #284: system--pw_workflow_vc-relax_scf--vc-relax-scf-1 ..................   Passed    5.35 sec
+        Start 285: system--pw_workflow_vc-relax_scf--vc-relax-scf-2
+257/258 Test #285: system--pw_workflow_vc-relax_scf--vc-relax-scf-2 ..................   Passed    1.63 sec
+        Start 283: system--pw_workflow_vc-relax_scf-correctness
+258/258 Test #283: system--pw_workflow_vc-relax_scf-correctness ......................   Passed    0.35 sec
+
+100% tests passed, 0 tests failed out of 258
+
+Label Time Summary:
+pseudo                      =   0.34 sec*proc (1 test)
+pw_atom                     =  61.25 sec*proc (7 tests)
+pw_b3lyp                    =  95.63 sec*proc (5 tests)
+pw_berry                    =  27.81 sec*proc (4 tests)
+pw_cluster                  =  43.53 sec*proc (5 tests)
+pw_dft                      =  26.42 sec*proc (12 tests)
+pw_dipole                   =  26.63 sec*proc (3 tests)
+pw_electric                 = 109.65 sec*proc (4 tests)
+pw_eval                     =   7.16 sec*proc (3 tests)
+pw_gau-pbe                  =  46.60 sec*proc (4 tests)
+pw_hse                      =  47.11 sec*proc (4 tests)
+pw_lattice-ibrav            = 129.70 sec*proc (40 tests)
+pw_lda+U                    = 354.21 sec*proc (15 tests)
+pw_lsda                     =  37.35 sec*proc (9 tests)
+pw_md                       =  22.56 sec*proc (6 tests)
+pw_metaGGA                  =  85.12 sec*proc (5 tests)
+pw_metal                    =  20.04 sec*proc (8 tests)
+pw_noncolin                 =  96.93 sec*proc (11 tests)
+pw_pawatom                  =  66.20 sec*proc (9 tests)
+pw_pbe                      =  73.45 sec*proc (5 tests)
+pw_plugins                  =   6.19 sec*proc (3 tests)
+pw_realspace                =  54.01 sec*proc (5 tests)
+pw_relax                    =  71.54 sec*proc (7 tests)
+pw_scf                      =  86.70 sec*proc (28 tests)
+pw_spinorbit                =  38.48 sec*proc (6 tests)
+pw_uspp                     =  72.57 sec*proc (17 tests)
+pw_vc-relax                 = 237.17 sec*proc (9 tests)
+pw_vdw                      = 644.90 sec*proc (11 tests)
+pw_workflow_relax_relax     =  61.04 sec*proc (3 tests)
+pw_workflow_scf_dos         =   9.11 sec*proc (3 tests)
+pw_workflow_vc-relax_dos    =  21.15 sec*proc (3 tests)
+pw_workflow_vc-relax_scf    =  28.28 sec*proc (3 tests)
+system--pw                  = 2708.82 sec*proc (258 tests)
+
+Total Test time (real) = 692.66 sec

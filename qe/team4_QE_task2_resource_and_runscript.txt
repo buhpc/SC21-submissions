@@ -1,0 +1,9 @@
+### Part B : CLOUD RESOURCE CONFIG
+
+SKU: Standard_ND96asr_v4
+Num of Nodes: 1
+Compute Cost: $6.93
+
+### Part C : Job Scripts
+
+OMP_NUM_THREADS=1 Mpirun -np 8 rw.x -input psiwat.in -ndiag 1 -ntg 1 2>&1 | tee team4_QE_task2_printout.txt
