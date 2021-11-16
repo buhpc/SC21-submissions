@@ -1,0 +1,15 @@
+IO500 version io500-sc21-3-gbd26dc1b38fd (standard)
+[RESULT]       ior-easy-write        1.707659 GiB/s : time 102.473 seconds
+[RESULT]    mdtest-easy-write       51.756207 kIOPS : time 69.708 seconds
+[      ]            timestamp        0.000000 kIOPS : time 0.003 seconds
+[RESULT]       ior-hard-write        0.396891 GiB/s : time 721.294 seconds
+[RESULT]    mdtest-hard-write        3.712039 kIOPS : time 45.785 seconds
+[RESULT]                 find      857.898855 kIOPS : time 4.333 seconds
+[RESULT]        ior-easy-read        1.762796 GiB/s : time 98.960 seconds
+[RESULT]     mdtest-easy-stat      261.619412 kIOPS : time 14.559 seconds
+[RESULT]        ior-hard-read        1.837917 GiB/s : time 155.930 seconds
+[RESULT]     mdtest-hard-stat       26.535925 kIOPS : time 7.291 seconds
+[RESULT]   mdtest-easy-delete       44.695282 kIOPS : time 81.900 seconds
+[RESULT]     mdtest-hard-read       10.241317 kIOPS : time 17.244 seconds
+[RESULT]   mdtest-hard-delete        6.332735 kIOPS : time 27.460 seconds
+[SCORE ] Bandwidth 1.217307 GiB/s : IOPS 36.735885 kiops : TOTAL 6.687216
