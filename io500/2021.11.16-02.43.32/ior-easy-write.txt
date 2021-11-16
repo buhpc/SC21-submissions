@@ -1,0 +1,39 @@
+IOR-3.4.0+dev: MPI Coordinated Test of Parallel I/O
+Began               : Tue Nov 16 02:43:32 2021
+Command line        : ./ior --dataPacketType=timestamp -C -Q 1 -g -G 762758656 -k -e -o ./datafiles/2021.11.16-02.43.32/ior-easy/ior_file_easy -O stoneWallingStatusFile=./results/2021.11.16-02.43.32/ior-easy.stonewall -t 2m -b 9920000m -F -w -D 30 -O stoneWallingWearOut=1 -a POSIX -O saveRankPerformanceDetailsCSV=./results/2021.11.16-02.43.32/ior-easy-write.csv
+Machine             : Linux ip-0A000010
+TestID              : 0
+StartTime           : Tue Nov 16 02:43:32 2021
+Path                : ./datafiles/2021.11.16-02.43.32/ior-easy/ior_file_easy.00000000
+FS                  : 3.5 TiB   Used FS: 6.5%   Inodes: 0.0 Mi   Used Inodes: -nan%
+
+Options: 
+api                 : POSIX
+apiVersion          : 
+test filename       : ./datafiles/2021.11.16-02.43.32/ior-easy/ior_file_easy
+access              : file-per-process
+type                : independent
+segments            : 1
+ordering in a file  : sequential
+ordering inter file : constant task offset
+task offset         : 1
+nodes               : 4
+tasks               : 480
+clients per node    : 120
+repetitions         : 1
+xfersize            : 2 MiB
+blocksize           : 9.46 TiB
+aggregate filesize  : 4541.02 TiB
+stonewallingTime    : 30
+stoneWallingWearOut : 1
+
+Results: 
+
+access    bw(MiB/s)  IOPS       Latency(s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
+------    ---------  ----       ----------  ---------- ---------  --------   --------   --------   --------   ----
+stonewalling pairs accessed min: 78 max: 251 -- min data: 0.2 GiB mean data: 0.3 GiB time: 30.2s
+WARNING: Expected aggregate file size       = 4992899481600000
+WARNING: Stat() of aggregate file size      = 252664872960
+WARNING: Using actual aggregate bytes moved = 252664872960
+WARNING: Maybe caused by deadlineForStonewalling
+write     3194.85    1666.27    0.000013    10158080000 2048.00    0.101985   72.31      3.02       75.42      0   
